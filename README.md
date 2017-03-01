@@ -1,4 +1,4 @@
-# MemN2N Chatbot in Tensorflow
+# MemN2N Chatbot in Tensorflow (forked, support Tensorflow 1.0 and python3)
 
 Implementation of [Learning End-to-End Goal-Oriented Dialog](https://arxiv.org/abs/1605.07683) with sklearn-like interface using Tensorflow. Tasks are from the [bAbl](https://research.facebook.com/research/babi/) dataset.
 
@@ -11,7 +11,7 @@ git clone lizuyao2010_abzooba@bitbucket.org/rndabzooba/chatbot_memory_network.gi
 
 mkdir ./chatbot_memory_network/data/
 cd ./chatbot_memory_network/data/
-wget https://scontent.xx.fbcdn.net/t39.2365-6/13437784_1766606076905967_221214138_n.tgz
+wget https://scontent-lax3-1.xx.fbcdn.net/t39.2365-6/13437784_1766606076905967_221214138_n.tgz
 tar xzvf ./13437784_1766606076905967_221214138_n.tgz
 
 cd ../
@@ -36,9 +36,8 @@ These files are also a good example of usage.
 
 ### Requirements
 
-* tensorflow 0.8
+* tensorflow 1.0
 * scikit-learn 0.17.1
-* six 1.10.0
 * scipy
 
 ### Results
